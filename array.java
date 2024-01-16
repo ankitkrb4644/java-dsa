@@ -9,6 +9,14 @@ public class array{
         int rno2=24;
         int rno3=28;
         int rno4=22;
-
+        //syntax
+        //datatype[] variable name datatype[size];
+        //store 4 roll number
+        //int[] rnos = new int[5];
+        //or directly
+        //int[] rnos2 ={23,12,45,32,15};
+        int [] ros; // declaration of array row getting define in  the stack
+        ros = new int[5]; //initialization: actually here object is being creates in the heap
+        System.out.println(rno4);
     }
 }
