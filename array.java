@@ -1,22 +1,17 @@
+import java.util.Scanner;
 public class array{
     public static void main(String[] args) {
-        //Q:store a roll number
-        int a =19;
-        //Q:store a person's name
-        String name = "ankit";
-        // Q:store 5 roll no
-        int rno1=27;
-        int rno2=24;
-        int rno3=28;
-        int rno4=22;
-        //syntax
-        //datatype[] variable name datatype[size];
-        //store 4 roll number
-        //int[] rnos = new int[5];
-        //or directly
-        //int[] rnos2 ={23,12,45,32,15};
-        int [] ros; // declaration of array row getting define in  the stack
-        ros = new int[5]; //initialization: actually here object is being creates in the heap
-        System.out.println(rno4);
+    Scanner sc = new Scanner(System.in);
+    int[] arr = new int[5];
+    arr[0]=1;
+    arr[1]=13;
+    arr[2]=41;
+    arr[3]=34;
+    arr[4]=25;//it will save as [1,13,41,34,25]
+    System.out.println(arr[3]);
+    //input using for loops
+    for(int i=0;i<arr.length;i++){
+        arr[i]= sc.nextInt();
+    }
     }
 }
