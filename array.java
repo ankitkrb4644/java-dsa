@@ -13,11 +13,16 @@ public class array{
     for(int i=0;i<arr.length;i++){
         arr[i]= sc.nextInt();
     }
-    // for(int i=0;i<arr.length;i++){
-    //     System.out.print(arr[i]+ " ");
-    // }
-    for(int j : arr){
-        System.out.print(j + " ");
+    for(int i=0;i<arr.length;i++){
+        System.out.print(arr[i]+ " ");
     }
+    // way 1 to print an array
+    // for(int j : arr){
+    //     System.out.print(j + " ");
+    // }
+    // way 2 to print an array
+    // for(int num : arr){                      //for every element in array , print the element
+    //     System.out.println(num + " ");       //here num represents element of the array
+    // }
     }
 }
