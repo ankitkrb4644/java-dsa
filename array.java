@@ -11,7 +11,7 @@ public class array{
     System.out.println(arr[4]);
     //input using for loops
     for(int i=0;i<arr.length;i++){
-        arr[i]= sc.nextInt();asdd
+        arr[i]= sc.nextInt();
     }
     }
 }
