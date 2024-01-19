@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class array{
     public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
+    Scanner ak = new Scanner(System.in);
     int[] arr = new int[5];
     arr[0]=1;
     arr[1]=13;
@@ -11,7 +11,7 @@ public class array{
     System.out.println(arr[4]);
     //input using for loops
     for(int i=0;i<arr.length;i++){
-        arr[i]= sc.nextInt();
+        arr[i]= ak.nextInt();
     }
     for(int i=0;i<arr.length;i++){
         System.out.print(arr[i]+ " ");
