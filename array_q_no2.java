@@ -1,7 +1,7 @@
 import java.util.Scanner;
+//take an array as input from the user.Search for a given x and print the index at which it occurs.
 public class array_q_no2 {
     public static void main(String[] args) {
-        //take an array as input from the user.Search for a given x and print the index at which it occurs.
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
         int numbers[] = new int[size];
